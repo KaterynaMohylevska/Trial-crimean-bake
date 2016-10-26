@@ -1,0 +1,88 @@
+@font-face {
+  font-family: Calibri;
+  src: url(fonts/Calibri.ttf); }
+@font-face {
+  font-family: Lifehack;
+  src: url(fonts/Lifehack_Sans.otf); }
+/* --------- FONTS --------- */
+/* ---- MAIN COLORS ------ */
+.orders-header {
+  position: relative;
+  top: 10px;
+  background: #fff;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px; }
+
+.orders-header ul {
+  font-size: 1.1em; }
+
+.cake-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  padding: 20px 0;
+  list-style: none; }
+
+.cake-content {
+  padding-bottom: 100px;
+  position: relative;
+  width: 30%;
+  cursor: pointer;
+  margin-top: 40px;
+  border-radius: 5%;
+  background: #FEECD9;
+  text-align: center; }
+  .cake-content header h2 {
+    font-weight: bold;
+    color: #634F43; }
+
+@media screen and (max-width: 600px) {
+  .cake-content {
+    width: 40%; } }
+@media screen and (max-width: 400px) {
+  .cake-content {
+    width: 90%; } }
+.cake-content:hover {
+  border: 0.2em double #F8AE05; }
+
+.cake-image {
+  width: 90%; }
+
+.cake-footer {
+  font-size: 1.2em;
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  text-align: center; }
+
+.cake-footer p {
+  margin: 5px 0; }
+
+.order-button {
+  font-family: Calibri;
+  padding: .5em;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fef5ec;
+  border: 1px solid #634F43;
+  border-radius: .5em;
+  background: -webkit-linear-gradient(top, #ac9384 5%, #634F43 100%);
+  background: -ms-linear-gradient(top, #ac9384 5%, #634F43 100%);
+  background: linear-gradient(to bottom, #ac9384 5%, #634F43 100%);
+  background-color: #ac9384;
+  background-color: #634F43;
+  -webkit-box-shadow: inset 0 1px 0 0 #bba79b;
+  -moz-box-shadow: inset 0 1px 0 0 #bba79b;
+  box-shadow: inset 0 1px 0 0 #bba79b;
+  text-shadow: 0 1px 0 #634F43; }
+
+.order-button:hover {
+  background: -webkit-linear-gradient(top, #634F43 5%, #ac9384 100%);
+  background: -ms-linear-gradient(top, #634F43 5%, #ac9384 100%);
+  background: linear-gradient(to bottom, #634F43 5%, #ac9384 100%);
+  background-color: #634F43; }
+
+/*# sourceMappingURL=orders.css.map */

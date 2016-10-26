@@ -1,0 +1,112 @@
+@import 'variables';
+
+.orders-header{
+  position: relative;
+  top: 10px;
+  background: $white;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.orders-header ul {
+  font-size: 1.1em;
+}
+
+
+.cake-container{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  padding: 20px 0;
+  list-style: none;
+}
+
+.cake-content
+{
+  padding-bottom: 100px;
+    position: relative;
+    width: 30%;
+    cursor: pointer;
+    margin-top: 40px;
+    border-radius: 5%;
+    background: $main-color--beige;
+    text-align: center;
+
+
+    header h2
+    {
+        font-weight: bold;
+
+        color: $main-color--brown;
+    }
+}
+
+@media screen and (max-width: 600px) {
+  .cake-content{
+    width: 40%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .cake-content{
+    width: 90%;
+  }
+}
+
+.cake-content:hover
+{
+    border: .2em double $main-color--yellow;
+}
+
+
+.cake-image
+{
+    width: 90%;
+}
+
+.cake-footer
+{
+    font-size: 1.2em;
+
+    position: absolute;
+    bottom: 5px;
+
+    width: 100%;
+
+    text-align: center;
+}
+.cake-footer p{
+  margin: 5px 0;
+}
+.order-button
+{
+    font-family: $second-font;
+
+    padding: .5em;
+
+    cursor: pointer;
+    text-decoration: none;
+
+    color: $beige-light;
+    border: 1px solid $main-color--brown;
+    border-radius: .5em;
+    background: -webkit-linear-gradient(top, $brown-lighter 5%, $main-color--brown 100%);
+    background:     -ms-linear-gradient(top, $brown-lighter 5%, $main-color--brown 100%);
+    background:         linear-gradient(to bottom, $brown-lighter 5%, $main-color--brown 100%);
+    background-color: $brown-lighter;
+    background-color: $main-color--brown;
+    -webkit-box-shadow: inset 0 1px 0 0 $brown-light;
+       -moz-box-shadow: inset 0 1px 0 0 $brown-light;
+            box-shadow: inset 0 1px 0 0 $brown-light;
+    text-shadow: 0 1px 0 $main-color--brown;
+}
+
+.order-button:hover
+{
+    background: -webkit-linear-gradient(top, $main-color--brown 5%, $brown-lighter 100%);
+    background:     -ms-linear-gradient(top, $main-color--brown 5%, $brown-lighter 100%);
+    background:         linear-gradient(to bottom, $main-color--brown 5%, $brown-lighter 100%);
+    background-color: $main-color--brown;
+}

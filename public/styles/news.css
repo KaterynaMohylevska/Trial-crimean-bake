@@ -1,0 +1,60 @@
+@font-face {
+  font-family: Calibri;
+  src: url(fonts/Calibri.ttf); }
+@font-face {
+  font-family: Lifehack;
+  src: url(fonts/Lifehack_Sans.otf); }
+/* --------- FONTS --------- */
+/* ---- MAIN COLORS ------ */
+.post {
+  padding-top: 20px; }
+
+.post-title {
+  display: block;
+  float: left;
+  width: 80%;
+  text-align: center; }
+
+.post-date {
+  display: block;
+  position: relative;
+  right: 0;
+  padding-top: 20px;
+  font-size: 1.2em; }
+
+.post-content p {
+  width: 40%;
+  position: relative;
+  left: 10%;
+  font-size: 1.2em;
+  display: block;
+  float: left; }
+
+.post-image {
+  display: block;
+  position: relative; }
+
+.post-image--first {
+  float: right;
+  left: -10%;
+  width: 40%; }
+
+.post-image--second {
+  left: 10%;
+  width: 33%;
+  padding: 20px 0; }
+
+@media screen and (max-width: 550px) {
+  .post-title {
+    width: 67%; }
+
+  .post-content p {
+    left: 10%;
+    width: 80%;
+    text-align: center; }
+
+  .post-image {
+    width: 100%;
+    left: 0; } }
+
+/*# sourceMappingURL=news.css.map */

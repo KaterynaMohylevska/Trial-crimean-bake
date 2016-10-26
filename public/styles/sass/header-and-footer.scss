@@ -1,0 +1,130 @@
+@import 'variables';
+/* ---------- CONTENT -------- */
+
+.main-header
+{
+    padding-top: 1rem;
+    padding-right: 2%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    background-color: $main-color--brown;
+    align-items: flex-end;
+}
+.main-header--container{
+  display: flex;
+  justify-content: space-around;
+  width: 450px;
+}
+
+.main-header--nav a
+{
+    font-family: $main-font;
+    font-size: 2em;
+    padding: 0 10px;
+    text-decoration: none;
+
+    color: $main-color--yellow;
+}
+
+@media screen and (max-width: 790px){
+  .main-header--container{
+    width: 100%;
+    justify-content: space-around;
+  }
+  .main-header--nav{
+    margin: 0 auto;
+    width: 100%;
+  }
+  .main-header--nav ul{
+    margin-bottom: 0;
+  }
+  .main-header--logo{
+    margin: 0 auto;
+  }
+  .main-footer{
+    padding-bottom: 30px;
+    p{
+      text-align: center;
+    }
+
+  }
+  .gmail-icon{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main-header--nav a{
+    font-size: 1.7em;
+    padding: 0 5px;
+  }
+}
+
+
+.main-header--nav a:hover,
+.active
+{
+    color: $main-color--beige;
+}
+
+
+.main-header--nav
+{
+    li
+    {
+        list-style: none;
+    }
+    ul
+    {
+        padding: 0;
+    }
+}
+
+
+.main-header--nav
+{
+    position: relative;
+
+    padding-bottom: 5px;
+
+    text-align: center;
+}
+
+
+.main-footer p
+{
+    text-align: center;
+    font-size: 1em;
+    padding: 0.5% 0;
+    background-color: $main-color--brown;
+}
+.main-footer p{
+  color: $main-color--beige;
+
+}
+
+.link
+{
+    padding-right: 2em;
+
+    color: inherit;
+}
+
+.link:hover
+{
+    color: $main-color--yellow;
+}
+
+.link img
+{
+    position: relative;
+    top: .3rem;
+
+    width: 1.5em;
+}
+
+.content
+{
+    background-image: url('images/main-background.png');
+}

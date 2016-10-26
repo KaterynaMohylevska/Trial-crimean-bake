@@ -1,0 +1,37 @@
+@import 'variables';
+
+/* ============   maain styles */
+*
+{
+    box-sizing: border-box;
+}
+
+p
+{
+    font-family: $second-font;
+    color: $main-color--brown;
+    margin: 0;
+}
+h2,li,h3{
+  font-family: $second-font;
+  color: $main-color--brown;
+}
+section
+{
+    padding: 0;
+}
+
+.row
+{
+    margin: 0;
+}
+
+
+@import "contacts" ;
+@import "header-and-footer";
+@import "main-content";
+@import "modals";
+@import "news";
+@import "orders";
+@import "team";
+@import "modals";

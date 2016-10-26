@@ -1,0 +1,25 @@
+@font-face{
+  font-family: Calibri;
+  src: url(fonts/Calibri.ttf);
+}
+@font-face {
+  font-family: Lifehack;
+  src: url(fonts/Lifehack_Sans.otf);
+}
+
+/* --------- FONTS --------- */
+
+$main-font: Lifehack;
+$second-font: Calibri;
+
+/* ---- MAIN COLORS ------ */
+$main-color--yellow: #F8AE05;
+$main-color--beige: #FEECD9;
+$main-color--brown: #634F43;
+
+$brown-lighter:#ac9384;
+$brown-light: #bba79b;
+$beige-light:#fef5ec;
+$yellow-lighter:#face69;
+$yellow-light:#fdeecd;
+$white: #fff;

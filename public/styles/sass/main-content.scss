@@ -1,0 +1,45 @@
+@import "variables";
+/* ---------- CONTENT -------- */
+
+
+
+.main-article{
+  text-align: center;
+}
+
+
+@media screen and (min-width:700px) {
+  .main-article--header h2{
+    background-color: $main-color--brown;
+    opacity: 0.8;
+    right: 0;
+    padding: 40px 0;
+    color: $beige-light;
+    position: absolute;
+    max-width: 600px;
+  }
+  .background-video{
+    min-width: 100%;
+  }
+
+}
+
+@media screen and (max-width:700px) {
+  .main-article--header h2{
+    max-width: 600px;
+    padding: 20px;
+    color: $main-color--brown;
+
+  }
+  .phone-img{
+    width: 100%;
+  }
+  .background-video{
+    width: 100%;
+  }
+}
+
+
+.elephant-bite{
+  color: $main-color--yellow;
+}

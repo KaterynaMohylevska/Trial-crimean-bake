@@ -1,0 +1,35 @@
+@import 'variables';
+
+/* ---------- CONTENT -------- */
+
+.contacts-container{
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 3%;
+  p{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+}
+
+.contacts-content{
+  width: 50%;
+  background: $white;
+}
+.google-map{
+  width: 50%;
+}
+
+@media screen and (max-width:600px) {
+  .contacts-content{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .google-map{
+    margin: 0 auto;
+    width: 90%;
+
+  }
+}

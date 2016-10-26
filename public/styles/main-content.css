@@ -1,0 +1,39 @@
+@font-face {
+  font-family: Calibri;
+  src: url(fonts/Calibri.ttf); }
+@font-face {
+  font-family: Lifehack;
+  src: url(fonts/Lifehack_Sans.otf); }
+/* --------- FONTS --------- */
+/* ---- MAIN COLORS ------ */
+/* ---------- CONTENT -------- */
+.main-article {
+  text-align: center; }
+
+@media screen and (min-width: 700px) {
+  .main-article--header h2 {
+    background-color: #634F43;
+    opacity: 0.8;
+    right: 0;
+    padding: 40px 0;
+    color: #fef5ec;
+    position: absolute;
+    max-width: 600px; }
+
+  .background-video {
+    min-width: 100%; } }
+@media screen and (max-width: 700px) {
+  .main-article--header h2 {
+    max-width: 600px;
+    padding: 20px;
+    color: #634F43; }
+
+  .phone-img {
+    width: 100%; }
+
+  .background-video {
+    width: 100%; } }
+.elephant-bite {
+  color: #F8AE05; }
+
+/*# sourceMappingURL=main-content.css.map */

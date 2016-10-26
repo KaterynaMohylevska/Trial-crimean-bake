@@ -1,0 +1,50 @@
+<section class="cake-order--modal">
+  <header class="cake-order--modal-header">
+    <button type="button" class="modal-close" ng-click="close()" data-dismiss="modal" aria-hidden="true">&times;</button>
+     <h2>{{cakeName}} </h2>
+
+      <p>({{cakeConsist}})</p>
+      <p>
+        Приблизна ціна:
+        {{cakePrice}}грн
+        (Ціна може відрізнятись в залежності від ваги торта на 10-20 грн)
+      </p>
+  </header>
+  <div class="cake-order--container">
+    <div class="cake-order-image">
+      <img ng-src="{{cakeImage}}" alt="Фото торта" class="order-image"/>
+    </div>
+    <div class="cake-order--form">
+
+      <p class="order-title">Для замовлення заповніть форму:</p>
+      <form class="order-form" ng-submit="orderCake()">
+        <p>
+          <label for="name">Ваше ім'я<span class="req">*</span></label>
+          <input type="text" ng-model="from_name" name="name" placeholder="Ім'я" class="order-form--input" required>
+
+          <label for="phoneNumder">Номер телефону<span class="req">*</span></label>
+          <input type="text" ng-model="phone_number" name="phoneNumder" class="order-form--input" placeholder="0507777777" required>
+
+          <label for="email">Email<span class="req">*</span></label>
+          <input type="email" ng-model="from_email" name="email" class="order-form--input" placeholder="name@gmail.com" required>
+
+          <label for="date">Дата<span class="req">*</span></label>
+          <input type="date" ng-model="to_date" name="date" class="order-form--input" ng-model="today" required>
+
+          <label for="time">Час<span class="req">*</span></label>
+          <input type="time" ng-model="to_time" name="time" class="order-form--input" min="08:00" max="20:00" required>
+
+          <label for="wishes">Ваші побажання</label>
+          <textarea name="wishes" rows="2" ng-model="with_wishes"  placeholder="Побажання"></textarea>
+        </p>
+        <p class="button-right">
+          <input type="submit" name="order" class="button-order" value="Замовити" >
+        </p>
+
+      </form>
+      </div>
+    </div>
+
+
+
+</section>

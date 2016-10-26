@@ -1,0 +1,135 @@
+@font-face {
+  font-family: Calibri;
+  src: url(fonts/Calibri.ttf); }
+@font-face {
+  font-family: Lifehack;
+  src: url(fonts/Lifehack_Sans.otf); }
+/* --------- FONTS --------- */
+/* ---- MAIN COLORS ------ */
+.cake-order--modal {
+  position: fixed;
+  z-index: 100;
+  top: 5%;
+  left: 5%;
+  height: 570px;
+  width: 90%;
+  padding: 1%;
+  border: 0.1em solid #ac9384;
+  border-radius: 2%;
+  background: #fef5ec; }
+
+.cake-order--modal-header h2 {
+  margin-bottom: 0; }
+
+.cake-order--modal-header {
+  text-align: center;
+  padding-bottom: 20px; }
+
+.modal-close {
+  font-size: 1.7em;
+  position: relative;
+  float: right;
+  padding: 0;
+  right: 2%;
+  cursor: pointer;
+  border: 0;
+  background: 0; }
+
+.order-image {
+  margin: 0 auto;
+  width: 90%;
+  display: block; }
+
+.cake-order-image {
+  width: 45%; }
+
+.cake-order--container {
+  font-size: 1em;
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-around;
+  align-items: center; }
+
+.cake-order--form {
+  width: 55%; }
+  .cake-order--form p {
+    padding: 5px 0; }
+
+.order-title {
+  font-size: 1.2em; }
+
+.order-form .order-form--input {
+  position: relative;
+  width: 100%;
+  height: 2em;
+  margin: 2px 0;
+  padding-left: 5px;
+  color: #fef5ec;
+  border: 0;
+  background: #ac9384; }
+.order-form textarea {
+  width: 100%;
+  color: #face69;
+  background: #ac9384; }
+
+.req {
+  color: #F8AE05; }
+
+.button-right {
+  text-align: right; }
+
+.button-order {
+  font-size: 1.2em;
+  padding: .5em;
+  cursor: pointer;
+  text-decoration: none;
+  color: #634F43;
+  border: 1px solid #F8AE05;
+  border-radius: .5em;
+  background: -webkit-linear-gradient(top, #face69 5%, #F8AE05 100%);
+  background: -ms-linear-gradient(top, #face69 5%, #F8AE05 100%);
+  background: linear-gradient(to bottom, #face69 5%, #F8AE05 100%);
+  background-color: #face69;
+  background-color: #F8AE05;
+  -webkit-box-shadow: inset 0 1px 0 0 #fdeecd;
+  -moz-box-shadow: inset 0 1px 0 0 #fdeecd;
+  box-shadow: inset 0 1px 0 0 #fdeecd;
+  text-shadow: 0 1px 0 #F8AE05; }
+
+.button-order:hover {
+  background: -webkit-linear-gradient(top, #F8AE05 5%, #face69 100%);
+  background: -ms-linear-gradient(top, #F8AE05 5%, #face69 100%);
+  background: linear-gradient(to bottom, #F8AE05 5%, #face69 100%);
+  background-color: #F8AE05; }
+
+@media screen and (max-width: 760px) {
+  .cake-order--container {
+    display: block; }
+
+  .cake-order--modal {
+    overflow-y: scroll;
+    height: 90%; }
+
+  .cake-order-image,
+  .cake-order--form {
+    margin: auto;
+    width: 100%; }
+
+  .cake-order--modal-header {
+    width: 90%;
+    margin: auto; } }
+@media screen and (max-height: 520px) {
+  .cake-order--modal {
+    height: 90%; } }
+/* =============== Madals true and false submit =========== */
+.modal-true,
+.modal-false {
+  left: 10px;
+  position: fixed;
+  background: #face69;
+  border-radius: 10px;
+  left: 25%;
+  top: 30%;
+  width: 50%; }
+
+/*# sourceMappingURL=modals.css.map */

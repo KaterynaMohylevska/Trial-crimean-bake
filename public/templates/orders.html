@@ -1,0 +1,28 @@
+<article class="orders">
+  <header class="orders-header">
+    <h3>Якщо ви хочете замовити один з наших смачних тортиків, вам потрібно:</h3>
+    <ul>
+      <li>Обрати торт</li>
+      <li>Натиснути кнопочку "Замовити"</li>
+      <li>Заповнити і відправити форму</li>
+      <li>Чекайте на дзвінок від нашого співробітника</li>
+      <li>Приходьте до нас в пекарню за вашим замовленням :)</li>
+    </ul>
+  </header>
+  <div class="cake-container">
+    <div class="cake-content" ng-click="order(cake)" ng-repeat="cake in cakes">
+      <header><h2>{{cake.name}}</h2></header>
+      <div>
+        <img ng-src="{{cake.image}}" alt="Фото торта" class="cake-image"/>
+      </div>
+      <footer class="cake-footer">
+        <p>Ціна: {{cake.price}}грн за 100грам</p>
+        <p>
+          <button name="order" class="order-button">Замовити</button>
+        </p>
+      </footer>
+    </div>
+  </div>
+
+
+</article>

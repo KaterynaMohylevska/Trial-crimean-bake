@@ -1,0 +1,658 @@
+@font-face {
+  font-family: Calibri;
+  src: url(fonts/Calibri.ttf); }
+@font-face {
+  font-family: Lifehack;
+  src: url(fonts/Lifehack_Sans.otf); }
+/* --------- FONTS --------- */
+/* ---- MAIN COLORS ------ */
+/* ============   maain styles */
+* {
+  box-sizing: border-box; }
+
+p {
+  font-family: Calibri;
+  color: #634F43;
+  margin: 0; }
+
+h2, li, h3 {
+  font-family: Calibri;
+  color: #634F43; }
+
+section {
+  padding: 0; }
+
+.row {
+  margin: 0; }
+
+@font-face {
+  font-family: Calibri;
+  src: url(fonts/Calibri.ttf); }
+@font-face {
+  font-family: Lifehack;
+  src: url(fonts/Lifehack_Sans.otf); }
+/* --------- FONTS --------- */
+/* ---- MAIN COLORS ------ */
+/* ---------- CONTENT -------- */
+.contacts-container {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 3%; }
+  .contacts-container p {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.2em; }
+
+.contacts-content {
+  width: 50%;
+  background: #fff; }
+
+.google-map {
+  width: 50%; }
+
+@media screen and (max-width: 600px) {
+  .contacts-content {
+    width: 90%;
+    margin: 0 auto; }
+
+  .google-map {
+    margin: 0 auto;
+    width: 90%; } }
+@font-face {
+  font-family: Calibri;
+  src: url(fonts/Calibri.ttf); }
+@font-face {
+  font-family: Lifehack;
+  src: url(fonts/Lifehack_Sans.otf); }
+/* --------- FONTS --------- */
+/* ---- MAIN COLORS ------ */
+/* ---------- CONTENT -------- */
+.main-header {
+  padding-top: 1rem;
+  padding-right: 2%;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  background-color: #634F43;
+  align-items: flex-end; }
+
+.main-header--container {
+  display: flex;
+  justify-content: space-around;
+  width: 450px; }
+
+.main-header--nav a {
+  font-family: Lifehack;
+  font-size: 2em;
+  padding: 0 10px;
+  text-decoration: none;
+  color: #F8AE05; }
+
+@media screen and (max-width: 790px) {
+  .main-header--container {
+    width: 100%;
+    justify-content: space-around; }
+
+  .main-header--nav {
+    margin: 0 auto;
+    width: 100%; }
+
+  .main-header--nav ul {
+    margin-bottom: 0; }
+
+  .main-header--logo {
+    margin: 0 auto; }
+
+  .main-footer {
+    padding-bottom: 30px; }
+    .main-footer p {
+      text-align: center; }
+
+  .gmail-icon {
+    display: none; } }
+@media screen and (max-width: 400px) {
+  .main-header--nav a {
+    font-size: 1.7em;
+    padding: 0 5px; } }
+.main-header--nav a:hover,
+.active {
+  color: #FEECD9; }
+
+.main-header--nav li {
+  list-style: none; }
+.main-header--nav ul {
+  padding: 0; }
+
+.main-header--nav {
+  position: relative;
+  padding-bottom: 5px;
+  text-align: center; }
+
+.main-footer p {
+  text-align: center;
+  font-size: 1em;
+  padding: 0.5% 0;
+  background-color: #634F43; }
+
+.main-footer p {
+  color: #FEECD9; }
+
+.link {
+  padding-right: 2em;
+  color: inherit; }
+
+.link:hover {
+  color: #F8AE05; }
+
+.link img {
+  position: relative;
+  top: .3rem;
+  width: 1.5em; }
+
+.content {
+  background-image: url("images/main-background.png"); }
+
+@font-face {
+  font-family: Calibri;
+  src: url(fonts/Calibri.ttf); }
+@font-face {
+  font-family: Lifehack;
+  src: url(fonts/Lifehack_Sans.otf); }
+/* --------- FONTS --------- */
+/* ---- MAIN COLORS ------ */
+/* ---------- CONTENT -------- */
+.main-article {
+  text-align: center; }
+
+@media screen and (min-width: 700px) {
+  .main-article--header h2 {
+    background-color: #634F43;
+    opacity: 0.8;
+    right: 0;
+    padding: 40px 0;
+    color: #fef5ec;
+    position: absolute;
+    max-width: 600px; }
+
+  .background-video {
+    min-width: 100%; } }
+@media screen and (max-width: 700px) {
+  .main-article--header h2 {
+    max-width: 600px;
+    padding: 20px;
+    color: #634F43; }
+
+  .phone-img {
+    width: 100%; }
+
+  .background-video {
+    width: 100%; } }
+.elephant-bite {
+  color: #F8AE05; }
+
+@font-face {
+  font-family: Calibri;
+  src: url(fonts/Calibri.ttf); }
+@font-face {
+  font-family: Lifehack;
+  src: url(fonts/Lifehack_Sans.otf); }
+/* --------- FONTS --------- */
+/* ---- MAIN COLORS ------ */
+.cake-order--modal {
+  position: fixed;
+  z-index: 100;
+  top: 5%;
+  left: 5%;
+  height: 570px;
+  width: 90%;
+  padding: 1%;
+  border: 0.1em solid #ac9384;
+  border-radius: 2%;
+  background: #fef5ec; }
+
+.cake-order--modal-header h2 {
+  margin-bottom: 0; }
+
+.cake-order--modal-header {
+  text-align: center;
+  padding-bottom: 20px; }
+
+.modal-close {
+  font-size: 1.7em;
+  position: relative;
+  float: right;
+  padding: 0;
+  right: 2%;
+  cursor: pointer;
+  border: 0;
+  background: 0; }
+
+.order-image {
+  margin: 0 auto;
+  width: 90%;
+  display: block; }
+
+.cake-order-image {
+  width: 45%; }
+
+.cake-order--container {
+  font-size: 1em;
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-around;
+  align-items: center; }
+
+.cake-order--form {
+  width: 55%; }
+  .cake-order--form p {
+    padding: 5px 0; }
+
+.order-title {
+  font-size: 1.2em; }
+
+.order-form .order-form--input {
+  position: relative;
+  width: 100%;
+  height: 2em;
+  margin: 2px 0;
+  padding-left: 5px;
+  color: #fef5ec;
+  border: 0;
+  background: #ac9384; }
+.order-form textarea {
+  width: 100%;
+  color: #face69;
+  background: #ac9384; }
+
+.req {
+  color: #F8AE05; }
+
+.button-right {
+  text-align: right; }
+
+.button-order {
+  font-size: 1.2em;
+  padding: .5em;
+  cursor: pointer;
+  text-decoration: none;
+  color: #634F43;
+  border: 1px solid #F8AE05;
+  border-radius: .5em;
+  background: -webkit-linear-gradient(top, #face69 5%, #F8AE05 100%);
+  background: -ms-linear-gradient(top, #face69 5%, #F8AE05 100%);
+  background: linear-gradient(to bottom, #face69 5%, #F8AE05 100%);
+  background-color: #face69;
+  background-color: #F8AE05;
+  -webkit-box-shadow: inset 0 1px 0 0 #fdeecd;
+  -moz-box-shadow: inset 0 1px 0 0 #fdeecd;
+  box-shadow: inset 0 1px 0 0 #fdeecd;
+  text-shadow: 0 1px 0 #F8AE05; }
+
+.button-order:hover {
+  background: -webkit-linear-gradient(top, #F8AE05 5%, #face69 100%);
+  background: -ms-linear-gradient(top, #F8AE05 5%, #face69 100%);
+  background: linear-gradient(to bottom, #F8AE05 5%, #face69 100%);
+  background-color: #F8AE05; }
+
+@media screen and (max-width: 760px) {
+  .cake-order--container {
+    display: block; }
+
+  .cake-order--modal {
+    overflow-y: scroll;
+    height: 90%; }
+
+  .cake-order-image,
+  .cake-order--form {
+    margin: auto;
+    width: 100%; }
+
+  .cake-order--modal-header {
+    width: 90%;
+    margin: auto; } }
+@media screen and (max-height: 520px) {
+  .cake-order--modal {
+    height: 90%; } }
+/* =============== Madals true and false submit =========== */
+.modal-true,
+.modal-false {
+  left: 10px;
+  position: fixed;
+  background: #face69;
+  border-radius: 10px;
+  left: 25%;
+  top: 30%;
+  width: 50%; }
+
+@font-face {
+  font-family: Calibri;
+  src: url(fonts/Calibri.ttf); }
+@font-face {
+  font-family: Lifehack;
+  src: url(fonts/Lifehack_Sans.otf); }
+/* --------- FONTS --------- */
+/* ---- MAIN COLORS ------ */
+.post {
+  padding-top: 20px; }
+
+.post-title {
+  display: block;
+  float: left;
+  width: 80%;
+  text-align: center; }
+
+.post-date {
+  display: block;
+  position: relative;
+  right: 0;
+  padding-top: 20px;
+  font-size: 1.2em; }
+
+.post-content p {
+  width: 40%;
+  position: relative;
+  left: 10%;
+  font-size: 1.2em;
+  display: block;
+  float: left; }
+
+.post-image {
+  display: block;
+  position: relative; }
+
+.post-image--first {
+  float: right;
+  left: -10%;
+  width: 40%; }
+
+.post-image--second {
+  left: 10%;
+  width: 33%;
+  padding: 20px 0; }
+
+@media screen and (max-width: 550px) {
+  .post-title {
+    width: 67%; }
+
+  .post-content p {
+    left: 10%;
+    width: 80%;
+    text-align: center; }
+
+  .post-image {
+    width: 100%;
+    left: 0; } }
+@font-face {
+  font-family: Calibri;
+  src: url(fonts/Calibri.ttf); }
+@font-face {
+  font-family: Lifehack;
+  src: url(fonts/Lifehack_Sans.otf); }
+/* --------- FONTS --------- */
+/* ---- MAIN COLORS ------ */
+.orders-header {
+  position: relative;
+  top: 10px;
+  background: #fff;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px; }
+
+.orders-header ul {
+  font-size: 1.1em; }
+
+.cake-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  padding: 20px 0;
+  list-style: none; }
+
+.cake-content {
+  padding-bottom: 100px;
+  position: relative;
+  width: 30%;
+  cursor: pointer;
+  margin-top: 40px;
+  border-radius: 5%;
+  background: #FEECD9;
+  text-align: center; }
+  .cake-content header h2 {
+    font-weight: bold;
+    color: #634F43; }
+
+@media screen and (max-width: 600px) {
+  .cake-content {
+    width: 40%; } }
+@media screen and (max-width: 400px) {
+  .cake-content {
+    width: 90%; } }
+.cake-content:hover {
+  border: 0.2em double #F8AE05; }
+
+.cake-image {
+  width: 90%; }
+
+.cake-footer {
+  font-size: 1.2em;
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  text-align: center; }
+
+.cake-footer p {
+  margin: 5px 0; }
+
+.order-button {
+  font-family: Calibri;
+  padding: .5em;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fef5ec;
+  border: 1px solid #634F43;
+  border-radius: .5em;
+  background: -webkit-linear-gradient(top, #ac9384 5%, #634F43 100%);
+  background: -ms-linear-gradient(top, #ac9384 5%, #634F43 100%);
+  background: linear-gradient(to bottom, #ac9384 5%, #634F43 100%);
+  background-color: #ac9384;
+  background-color: #634F43;
+  -webkit-box-shadow: inset 0 1px 0 0 #bba79b;
+  -moz-box-shadow: inset 0 1px 0 0 #bba79b;
+  box-shadow: inset 0 1px 0 0 #bba79b;
+  text-shadow: 0 1px 0 #634F43; }
+
+.order-button:hover {
+  background: -webkit-linear-gradient(top, #634F43 5%, #ac9384 100%);
+  background: -ms-linear-gradient(top, #634F43 5%, #ac9384 100%);
+  background: linear-gradient(to bottom, #634F43 5%, #ac9384 100%);
+  background-color: #634F43; }
+
+@font-face {
+  font-family: Calibri;
+  src: url(fonts/Calibri.ttf); }
+@font-face {
+  font-family: Lifehack;
+  src: url(fonts/Lifehack_Sans.otf); }
+/* --------- FONTS --------- */
+/* ---- MAIN COLORS ------ */
+/* ---------- CONTENT -------- */
+.team-content {
+  max-width: 620px;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: 30px;
+  font-size: 1.2em;
+  background: #fff; }
+
+.slideshow-container {
+  padding: 60px 0 30px 0;
+  width: 100%; }
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s; }
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+@keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+.slides img {
+  width: 60%;
+  margin: 0 auto;
+  display: block; }
+
+@media screen and (max-width: 700px) {
+  .slides img {
+    width: 100%; }
+
+  .team-content {
+    width: 80%; } }
+@font-face {
+  font-family: Calibri;
+  src: url(fonts/Calibri.ttf); }
+@font-face {
+  font-family: Lifehack;
+  src: url(fonts/Lifehack_Sans.otf); }
+/* --------- FONTS --------- */
+/* ---- MAIN COLORS ------ */
+.cake-order--modal {
+  position: fixed;
+  z-index: 100;
+  top: 5%;
+  left: 5%;
+  height: 570px;
+  width: 90%;
+  padding: 1%;
+  border: 0.1em solid #ac9384;
+  border-radius: 2%;
+  background: #fef5ec; }
+
+.cake-order--modal-header h2 {
+  margin-bottom: 0; }
+
+.cake-order--modal-header {
+  text-align: center;
+  padding-bottom: 20px; }
+
+.modal-close {
+  font-size: 1.7em;
+  position: relative;
+  float: right;
+  padding: 0;
+  right: 2%;
+  cursor: pointer;
+  border: 0;
+  background: 0; }
+
+.order-image {
+  margin: 0 auto;
+  width: 90%;
+  display: block; }
+
+.cake-order-image {
+  width: 45%; }
+
+.cake-order--container {
+  font-size: 1em;
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-around;
+  align-items: center; }
+
+.cake-order--form {
+  width: 55%; }
+  .cake-order--form p {
+    padding: 5px 0; }
+
+.order-title {
+  font-size: 1.2em; }
+
+.order-form .order-form--input {
+  position: relative;
+  width: 100%;
+  height: 2em;
+  margin: 2px 0;
+  padding-left: 5px;
+  color: #fef5ec;
+  border: 0;
+  background: #ac9384; }
+.order-form textarea {
+  width: 100%;
+  color: #face69;
+  background: #ac9384; }
+
+.req {
+  color: #F8AE05; }
+
+.button-right {
+  text-align: right; }
+
+.button-order {
+  font-size: 1.2em;
+  padding: .5em;
+  cursor: pointer;
+  text-decoration: none;
+  color: #634F43;
+  border: 1px solid #F8AE05;
+  border-radius: .5em;
+  background: -webkit-linear-gradient(top, #face69 5%, #F8AE05 100%);
+  background: -ms-linear-gradient(top, #face69 5%, #F8AE05 100%);
+  background: linear-gradient(to bottom, #face69 5%, #F8AE05 100%);
+  background-color: #face69;
+  background-color: #F8AE05;
+  -webkit-box-shadow: inset 0 1px 0 0 #fdeecd;
+  -moz-box-shadow: inset 0 1px 0 0 #fdeecd;
+  box-shadow: inset 0 1px 0 0 #fdeecd;
+  text-shadow: 0 1px 0 #F8AE05; }
+
+.button-order:hover {
+  background: -webkit-linear-gradient(top, #F8AE05 5%, #face69 100%);
+  background: -ms-linear-gradient(top, #F8AE05 5%, #face69 100%);
+  background: linear-gradient(to bottom, #F8AE05 5%, #face69 100%);
+  background-color: #F8AE05; }
+
+@media screen and (max-width: 760px) {
+  .cake-order--container {
+    display: block; }
+
+  .cake-order--modal {
+    overflow-y: scroll;
+    height: 90%; }
+
+  .cake-order-image,
+  .cake-order--form {
+    margin: auto;
+    width: 100%; }
+
+  .cake-order--modal-header {
+    width: 90%;
+    margin: auto; } }
+@media screen and (max-height: 520px) {
+  .cake-order--modal {
+    height: 90%; } }
+/* =============== Madals true and false submit =========== */
+.modal-true,
+.modal-false {
+  left: 10px;
+  position: fixed;
+  background: #face69;
+  border-radius: 10px;
+  left: 25%;
+  top: 30%;
+  width: 50%; }
+
+/*# sourceMappingURL=main.css.map */
